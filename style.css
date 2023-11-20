@@ -1,5 +1,50 @@
 body {
     height: 100vh;
-    overflow: hidden;
+    margin: 0;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+.header, .hero-section, .footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.white {
+    color: #F9FAF8;
+}
+
+.grey {
+    color: #E5E7EB;
+}
+.logo {
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.signup {
+    background-color: #3882F6;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.button-section {
+    background-color: #3882F6;
 }
