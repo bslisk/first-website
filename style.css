@@ -49,6 +49,7 @@ img {
 .title {
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
 }
 
 .subtext {
@@ -83,7 +84,14 @@ img {
 .signup {
     background-color: #3882F6;
     width: 120px;
-    height: 30px;
+    height: 34px;
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .illustrations-section {
@@ -114,13 +122,35 @@ img {
 .illustration img {
     width: 200px;
     height: auto;
-    border: 3px solid #3882F6;
+    border: 4px solid #3882F6;
     border-radius: 25px;
 }
 .quote-section {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 320px;
+    flex: 0 1 auto;
+}
+
+.quote {
+    font-size: 22px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 30px;
+}
+.signature {
+    font-weight: bold;
+    align-self: flex-end;
+}
 .button-section {
     background-color: #3882F6;
 }
